@@ -57,7 +57,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Trivy vulnerability scanner (FS)
-        uses: uses: aquasecurity/trivy-action@v0
+        uses: aquasecurity/trivy-action@v0
         with:
           scan-type: fs
           scan-ref: .
@@ -134,7 +134,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Trivy image scan for backend
-        uses: uses: aquasecurity/trivy-action@v0
+        uses: aquasecurity/trivy-action@v0
         with:
           scan-type: image
           image-ref: tejas819/backend:${{ env.IMAGE_TAG }}
@@ -145,7 +145,7 @@ jobs:
           severity: CRITICAL,HIGH
 
       - name: Run Trivy image scan for frontend
-        uses: uses: aquasecurity/trivy-action@v0
+        uses: aquasecurity/trivy-action@v0
         with:
           scan-type: image
           image-ref: tejas819/frontend:${{ env.IMAGE_TAG }}
