@@ -1,6 +1,7 @@
 # 3-Tier GitOps CI/CD Pipeline on AWS EKS
 
-![Architecture](./architecture.png)
+<img width="1472" height="1640" alt="image" src="https://github.com/user-attachments/assets/eb56bd70-c66f-4347-8e21-35abb363e329" />
+
 
 ##  Project Overview
 
